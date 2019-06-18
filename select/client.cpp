@@ -8,7 +8,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Usage()
+void Usage()  //用户手册
 {
     cout <<"Usage : ./client ip port"<<endl;
 }
