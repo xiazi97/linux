@@ -4,9 +4,6 @@ select函数原型
 #include <sys/select.h>
 int select(int nfds,fd_set *readfds,fd_set *writefds,
            fd_set *exceptfds,struct timeval *timeout);
-1
-2
-3
 参数介绍：
 
 参数nfds是需要监视的最大文件描述符值 +1
