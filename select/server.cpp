@@ -1,6 +1,6 @@
 //基于select模型的TCP服务器
 /*
- select原型：
+ select函数原型：
 #inclued <sys/select.h>
 int select(int nfds,fd_set *readfds,fd_set *writefds,
 	  fd_set  *exceptfds,struct timeval *timeout);
