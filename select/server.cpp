@@ -73,11 +73,14 @@ void Add(int fd,int* connect_list,int connect_list_size)
     }
     return;
 }
-
+void Usage()
+{
+    cout << "usage: ./server ip port\n" <<endl;
+}
 int main(int argc,char* argv[])
 {
     if(argc != 3){
-        cout << "usage: ./server ip port\n" <<endl;
+        Usage();
         return 1;
     }
     struct sockaddr_in addr;
